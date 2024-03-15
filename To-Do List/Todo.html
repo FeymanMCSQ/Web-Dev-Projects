@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="icon" type="image/x-icon" href="images/tick.ico" />
+    <link rel="stylesheet" type="text/css" href="Todo.css" />
+  </head>
+  <body>
+    <!-- The form element is used to collect data in web apps 
+    it has two parts, action, which sends data to a server. And method that either is get or
+    post. Get sends less data than post-->
+    <div class="float-father">
+      <div class="child">
+        <form class="textbox" action="" method="get">
+          <h1 id="topicHeading">ADD ITEM:</h1>
+          <input id="textboxInput" type="text" />
+        </form>
+      </div>
+      <div class="child">
+        <button id="additem">+</button>
+      </div>
+    </div>
+    <br />
+    <div class="List">
+      <!-- The tasks go here -->
+    </div>
+    <script src="Todo.js"></script>
+  </body>
+</html>

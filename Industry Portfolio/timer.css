@@ -1,0 +1,96 @@
+#main_heading {
+    color: rgb(29, 28, 28);
+    padding: 25px;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    color: rgb(231, 231, 231);
+    padding: 25px;
+    background-color: rgb(148, 148, 148);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Space {
+    text-align: left;
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    border-radius: 75px;
+}
+#SpaceBoys {
+    width: 47%;
+    height: 720px;
+    padding: 5px;
+    border-radius: 70px;
+}
+.Energy {
+    background-color: rgb(57, 57, 228);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 70px;
+    padding-top: 5px;
+
+}
+#Nuclear {
+    padding-right: 10px;
+    border-radius: 70px;
+    width: 40%;
+
+
+}
+#titleEnergy {
+    position: relative;
+    text-align: center;
+
+}
+#spaceHeading {
+    position: relative;
+    text-align: left;
+}
+.healthcare {
+    background-color: rgb(26, 172, 26);
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#healthcarePic {
+    height: 530px;
+    width: 500px;
+    border-radius: 75px;
+}
+
+#spacex {
+    background-color: rgb(118, 118, 118);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    text-shadow: 0cm;
+    font-size: 18px;
+    font-weight: bold;
+}
+#energy {
+    background-color: rgb(118, 118, 118);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    text-shadow: 0cm;
+    font-size: 18px;
+    font-weight: bold;
+}
+#Health {
+    background-color: rgb(118, 118, 118);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    text-shadow: 0cm;
+    font-size: 18px;
+    font-weight: bold;
+}

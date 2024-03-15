@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(33, 33, 33);
+    color: rgb(226, 16, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    font-size: 20px;
+
+}
+#addQuestion {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    font-size: 30px;
+    background-color: rgb(226, 16, 226);
+    color: whitesmoke;
+    /* border-radius: 50%; */
+    grid-row-start: 1 ;
+    margin-right: 15px;
+    height: auto;
+}
+#win {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 1 ;
+
+}
+#winTally {
+    grid-column-start: 4 ;
+    grid-column-end: span 1;
+    grid-row-start: 1 ;
+}
+#total {
+    grid-column-start: 6;
+    grid-column-end: span 1;
+    grid-row-start: 1 ;
+}
+#totalTally {
+    grid-column-start: 7;
+    grid-column-end: span 1;
+    grid-row-start: 1 ;
+}
+#reset {
+    grid-column-start: 9;
+    grid-column-end: span 1;
+    background-color: rgb(226, 16, 226);
+    color: whitesmoke;
+    /* border-radius: 50%; */
+    grid-row-start: 1 ;
+    font-size: 30px;
+    height: auto;
+
+}
+@media  screen and (max-width : 600px) {
+    body {
+    font-size:  10px;
+    }
+    #reset {
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    #addQuestion {
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.mainText {
+    grid-row-start: 2;
+}
+#newDiv {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+#questionHub {
+    grid-column-start: 1;
+    grid-column-end: span 8;
+    font-size: 20px;
+
+}
+.momo {
+    background-color: rgb(226, 16, 226);
+    color: whitesmoke;
+    width: 75px;
+    font-size: 15px;
+}

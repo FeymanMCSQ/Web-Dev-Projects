@@ -1,0 +1,45 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Science: Mathematics",
+      "question": "E = MC3",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "There are no deserts in Europe.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Entertainment: Television",
+      "question": "The Klingon home planet is Qo&#039;noS.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "&quot;Return to Castle Wolfenstein&quot; was the only game of the Wolfenstein series where you don&#039;t play as William &quot;B.J.&quot; Blazkowicz.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "medium",
+      "category": "Entertainment: Board Games",
+      "question": "In the game &quot;Racko&quot; you may pick up ANY card from the discard pile.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    }
+  ]
+}
